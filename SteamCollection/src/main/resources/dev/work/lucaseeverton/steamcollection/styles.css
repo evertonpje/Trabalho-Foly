@@ -1,0 +1,9 @@
+.root {
+    -fx-background-color: #24242c;
+    -fx-padding: 100px 280px;
+}
+
+.top-box {
+    -fx-background-color: #444; /* Cor de fundo */
+    -fx-pref-height: 100px;    /* Altura fixa */
+}

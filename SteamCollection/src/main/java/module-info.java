@@ -10,6 +10,7 @@ module dev.work.lucaseeverton.steamcollection {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens dev.work.lucaseeverton.steamcollection to javafx.fxml;
     exports dev.work.lucaseeverton.steamcollection;
