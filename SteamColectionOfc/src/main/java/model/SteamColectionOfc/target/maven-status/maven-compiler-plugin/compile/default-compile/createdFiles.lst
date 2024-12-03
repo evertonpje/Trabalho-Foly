@@ -1,0 +1,6 @@
+model\dao\ConnFactory.class
+model\dao\InterfaceDao.class
+model\dao\DaoFactory.class
+model\dao\JogoDaoJDBC.class
+view\Principal.class
+model\Jogo.class
