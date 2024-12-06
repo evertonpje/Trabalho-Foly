@@ -23,7 +23,11 @@ public class Principal {
             JogoDaoJDBC dao = DaoFactory.novoJogoDao();
 
           Jogo c = new Jogo("Elden ring", "historia", "Steam", "22/04/2020", "Completado", "./seila/caminho");
+            Jogo c1 = new Jogo("Elden ring teste", "historia", "Steam", "22/04/2020", "Completado", "./seila/caminho");
+            Jogo c2 = new Jogo("Elden ring teste 4", "historia", "Steam", "22/04/2020", "Completado", "./seila/caminho");
           dao.incluir(c);
+            dao.incluir(c1);
+            dao.incluir(c2);
           
           
           
