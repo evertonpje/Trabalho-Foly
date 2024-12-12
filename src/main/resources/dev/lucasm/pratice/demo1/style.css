@@ -1,0 +1,117 @@
+.root {
+    -fx-background-color: #24242c;
+    -fx-padding: 50px;
+}
+
+.top-box {
+    -fx-background-color: #444; /* Cor de fundo */
+    -fx-pref-height: 100px;    /* Altura fixa */
+}
+
+#form-title {
+    fx-color: #FFFFFF;
+    fx-font-size: 20px;
+}
+
+#header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 5px 10px;
+    -fx-font-weight: bold;
+}
+
+#add-button, #save-button, #back-button, #select-image-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+#add-button:hover, #save-button:hover, #back-button:hover, #select-image-button:hover {
+    -fx-background-color: #45A049;
+}
+
+#form-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+#input-field {
+    -fx-background-color: #333;  /* Cor de fundo escura */
+    -fx-text-fill: white;         /* Texto branco */
+    -fx-font-size: 14px;          /* Tamanho da fonte */
+    -fx-padding: 10px;            /* Espaçamento interno */
+    -fx-pref-width: 250px;        /* Largura do campo */
+}
+
+#select-image-button, #save-button, #back-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+#select-image-button:hover, #save-button:hover, #back-button:hover {
+    -fx-background-color: #45A049;
+}
+
+#form-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;  /* Texto branco */
+}
+
+.radio-label {
+    -fx-text-fill: white;  /* Texto branco para as opções de rádio */
+}
+
+#input {
+    fx-width: 50%;
+}
+
+/* Estilo dos cards de jogo */
+.vbox {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center; /* Alinha os elementos no centro */
+}
+
+.vbox:hover {
+    background-color: #dfe6e9;
+}
+
+/* Aumentando o tamanho da imagem do card */
+.vbox img {
+    width: 300px; /* Aumenta a largura da imagem */
+    height: 350px; /* Aumenta a altura da imagem */
+    object-fit: cover; /* Faz com que a imagem se ajuste sem distorcer */
+    margin-bottom: 10px; /* Dá um espaço entre a imagem e o texto */
+}
+
+/* Estilo do nome do jogo */
+.vbox .label {
+    font-size: 18px; /* Aumenta o tamanho do texto */
+    font-weight: bold; /* Deixa o nome em negrito */
+    color: white; /* Cor do nome em branco */
+    margin-top: 5px; /* Dá um espaço acima do nome */
+}
+
+/* Estilo do botão de excluir */
+button {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px; /* Adiciona um espaço entre o botão e o conteúdo acima */
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
